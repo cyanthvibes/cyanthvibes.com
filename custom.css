@@ -1,7 +1,7 @@
 .big-heart {
     width: 5em;
     height: 5em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
     animation: rainbow 5s linear;
     animation-iteration-count: infinite;
 }
