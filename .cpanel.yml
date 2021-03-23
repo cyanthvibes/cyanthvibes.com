@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/harjan1q/cyanvibes.com/
+    - /bin/cp -R * $DEPLOYPATH
