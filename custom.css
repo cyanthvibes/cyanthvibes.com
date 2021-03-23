@@ -1,0 +1,249 @@
+.big-heart {
+    width: 5em;
+    height: 5em;
+    margin-bottom: 1em;
+    animation: rainbow 5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    100%,0% {
+        fill: rgb(255,0,0);
+    }
+    8% {
+        fill: rgb(255,127,0);
+    }
+    16% {
+        fill: rgb(255,255,0);
+    }
+    25% {
+        fill: rgb(127,255,0);
+    }
+    33% {
+        fill: rgb(0,255,0);
+    }
+    41% {
+        fill: rgb(0,255,127);
+    }
+    50% {
+        fill: rgb(0,255,255);
+    }
+    58% {
+        fill: rgb(0,127,255);
+    }
+    66% {
+        fill: rgb(0,0,255);
+    }
+    75% {
+        fill: rgb(127,0,255);
+    }
+    83% {
+        fill: rgb(255,0,255);
+    }
+    91% {
+        fill: rgb(255,0,127);
+    }
+}
+
+.socials {
+    width: 2em;
+    height: 2em;
+}
+
+.btn-outline-primary {
+    border-color: white;
+}
+
+.instagram {
+    color: #e4405f;
+    /*border-color: #e4405f;*/
+}
+
+.instagram:hover,
+.instagram:focus {
+    background-color: #e4405f;
+    border-color: #e4405f;
+}
+
+.steam {
+    color: #1380B2;
+    /*border-color: #1380B2;*/
+}
+
+.steam:hover,
+.steam:focus {
+    background-color: #1380B2;
+    border-color: #1380B2;
+}
+
+.facebook {
+    color: #3b5999;
+    /*border-color: #3b5999;*/
+}
+
+.facebook:hover,
+.facebook:focus {
+    background-color: #3b5999;
+    border-color: #3b5999;
+}
+
+.twitch {
+    color: #6441a5;
+    /*border-color: #6441a5;*/
+}
+
+.twitch:hover,
+.twitch:focus{
+    background-color: #6441a5;
+    border-color: #6441a5;
+}
+
+.discord {
+    color: #7289DA;
+    /*border-color: #7289DA;*/
+}
+
+.discord:hover,
+.discord:focus{
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+
+.spotify {
+    color: #1DB954;
+    /*border-color: #1DB954;*/
+}
+
+.spotify:hover,
+.spotify:focus{
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+
+.mal {
+    color: #2A50A3;
+    /*border-color: #2A50A3;*/
+}
+
+.mal:hover,
+.mal:focus{
+    background-color: #2A50A3;
+    /*border-color: #2A50A3;*/
+}
+
+.youtube {
+    color: #FF0000;
+    /*border-color: #FF0000;*/
+}
+
+.youtube:hover,
+.youtube:focus{
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.github {
+    color: #211F1F;
+    /*border-color: #211F1F;*/
+}
+
+.github:hover,
+.github:focus{
+    background-color: #211F1F;
+    border-color: #211F1F;
+}
+
+.btn-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.btn-p {
+    position: relative;
+    height: 4em;
+}
+
+.btn-label {
+    font-size: 2em;
+}
+
+.btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.bg {
+    /*background-color: #000000!important;*/
+
+    /*background: rgb(246,11,138);*/
+    /*background: linear-gradient(315deg, rgba(246,11,138,1) 0%, rgba(0,0,255,1) 100%);*/
+
+    /*background: rgb(141,6,79);*/
+    /*background: linear-gradient(315deg, rgba(141,6,79,1) 0%, rgba(0,0,127,1) 100%);*/
+
+    background: rgb(141,6,79);
+    background: -moz-linear-gradient(315deg, rgba(141,6,79,1) 0%, rgba(0,0,127,1) 100%);
+    background: -webkit-linear-gradient(315deg, rgba(141,6,79,1) 0%, rgba(0,0,127,1) 100%);
+    background: linear-gradient(315deg, rgba(141,6,79,1) 0%, rgba(0,0,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d064f",endColorstr="#00007f",GradientType=1);
+
+    /*background: rgb(0, 0, 127);*/
+    /*background: -moz-linear-gradient(315deg, rgba(0, 0, 127, 1) 0%, rgba(141, 6, 79, 1) 100%);*/
+    /*background: -webkit-linear-gradient(315deg, rgba(0, 0, 127, 1) 0%, rgba(141, 6, 79, 1) 100%);*/
+    /*background: linear-gradient(315deg, rgba(0, 0, 127, 1) 0%, rgba(141, 6, 79, 1) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00007f", endColorstr="#8d064f", GradientType=1);*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.button-wrapper {
+    max-width: 400px;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.btn-text {
+    text-transform: uppercase;
+}
+
+html, body {
+    font-family: 'Share Tech Mono', monospace;
+    overflow-x: hidden!important;
+}
+
+.btn {
+    transition-duration: 0s;
+}
+
+.profile-wrapper {
+    width: 30%;
+    height: 30%;
+    min-width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .5em white;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
