@@ -183,6 +183,7 @@
 }
 
 .btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus {
+    color: white;
     box-shadow: none;
 }
 
