@@ -25,9 +25,21 @@
 
         <div class="intro px-3">
             <div class="profile-wrapper ">
-                <img class="profile" src="img/20210102_010159.jpg" alt="">
+                <img class="profile" id="profile" src="img/picture1.jpg" alt="">
             </div>
         </div>
+
+        <script>
+            var imageSources = ["img/picture1.jpg", "img/picture2.png", "img/picture3.jpg", "img/picture4.jpg"]
+            var index = 0;
+            setInterval (function(){
+                if (index === imageSources.length) {
+                    index = 0;
+                }
+                document.getElementById("profile").src = imageSources[index];
+                index++;
+            } , 5000);
+        </script>
 
         <div class="intro my-3 ">
             <p>CYAN IS VIBING</p>
