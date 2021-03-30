@@ -1,4 +1,4 @@
-var picPaths = ['img/picture1.jpg','img/picture2.png','img/picture3.jpg','img/picture4.jpg'];
+var picPaths = ['img/picture1.jpg','img/picture2.png','img/picture5.jpg','img/picture4.jpg', 'img/picture3.jpg', 'img/picture8.jpg', 'img/picture7.jpg', 'img/picture6.jpg'];
 var curPic = -1;
 
 var imgO = new Array();
