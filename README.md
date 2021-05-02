@@ -1,0 +1,1 @@
+A simple, free, and self-hosted alternative to [linktr.ee](https://linktr.ee), using [Bootstrap 4](https://github.com/twbs/bootstrap).
