@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    <title>CYAN IS VIBING</title>
+    <title>Harjan | Cyan</title>
     <script src="js/pf.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
@@ -30,16 +30,27 @@
             </div>
         </div>
 
-        <div class="intro my-3 ">
-            <p>CYAN IS VIBING</p>
+        <div class="intro my-3">
+            Harjan | ฮารยัน | Cyan <br>
+            <?php include './php/age.php';?>/M | he/him<br>
+            50% Dutch 🇳🇱 | 50% Thai 🇹🇭‍
+        </div>
 
+        <div class="intro my-3">
             <svg xmlns="http://www.w3.org/2000/svg" fill="cyan" class="big-heart" viewBox="0.000217437744140625 -0.00005137920379638672 15.999565124511719 15.000051498413086">
                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
             </svg>
-
-<!--            <p>If you're reading this: I love you</p>-->
-<!--            <p>Yes, I know, this is incredibly scuffed and yes, I am working on it.</p>-->
         </div>
+
+<!--        <div class="intro-text my-3 ">-->
+<!--            Studies software engineering 💻<br><hr>-->
+<!--            Listens to dnb, krnb/kchill, jrock, indie, lofi & much more 🎶<br><hr>-->
+<!--            Watches anime, plays video games 🎮 & does photography 📷<br><hr>-->
+<!--            Likes to cook 🥘 and would love to share food 🍛 with someone<br><hr>-->
+<!--            Contemplates life 😔 but is actively trying to get back on track 💪<br><hr>-->
+<!--            Would even sing you a song 🎤 or read you a bedtime story 😴<br><hr>-->
+<!--            Might have gained some weight during COVID, but is working out 🏋️‍-->
+<!--        </div>-->
 
         <div class="button-wrapper">
             <a href="https://discordapp.com/users/187286355435454466/" class="mb-3 btn btn-outline-primary d-flex flex-row btn-p discord">
