@@ -1,7 +1,6 @@
 .big-heart {
     width: 5em;
     height: 5em;
-    /*margin-bottom: 1em;*/
     animation: rainbow 5s linear;
     animation-iteration-count: infinite;
 }
@@ -56,7 +55,6 @@
 
 .instagram {
     color: #e4405f;
-    /*border-color: #e4405f;*/
 }
 
 .instagram:hover,
@@ -67,7 +65,6 @@
 
 .steam {
     color: #1380B2;
-    /*border-color: #1380B2;*/
 }
 
 .steam:hover,
@@ -78,7 +75,6 @@
 
 .facebook {
     color: #3b5999;
-    /*border-color: #3b5999;*/
 }
 
 .facebook:hover,
@@ -89,7 +85,6 @@
 
 .twitch {
     color: #6441a5;
-    /*border-color: #6441a5;*/
 }
 
 .twitch:hover,
@@ -100,7 +95,6 @@
 
 .discord {
     color: #7289DA;
-    /*border-color: #7289DA;*/
 }
 
 .discord:hover,
@@ -111,7 +105,6 @@
 
 .spotify {
     color: #1DB954;
-    /*border-color: #1DB954;*/
 }
 
 .spotify:hover,
@@ -122,29 +115,26 @@
 
 .mal {
     color: #2A50A3;
-    /*border-color: #2A50A3;*/
 }
 
 .mal:hover,
 .mal:focus{
     background-color: #2A50A3;
-    /*border-color: #2A50A3;*/
+    border-color: #2A50A3;
 }
 
 .snapchat {
     color: #FFFC00;
-    /*border-color: #2A50A3;*/
 }
 
 .snapchat:hover,
 .snapchat:focus{
     background-color: #FFFC00;
-    /*border-color: #2A50A3;*/
+    border-color: #FFFC00;
 }
 
 .youtube {
     color: #FF0000;
-    /*border-color: #FF0000;*/
 }
 
 .youtube:hover,
@@ -155,7 +145,6 @@
 
 .github {
     color: #211F1F;
-    /*border-color: #211F1F;*/
 }
 
 .github:hover,
