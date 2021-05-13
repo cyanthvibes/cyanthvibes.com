@@ -207,7 +207,7 @@
 
 .intro-text {
     margin: auto;
-    width: 400px;
+    max-width: 400px;
     text-align: center;
 }
 
@@ -249,4 +249,31 @@ hr {
     border-radius: 50%;
     position: relative;
     z-index: -1;
+    display: none;
+}
+
+.gallery {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .5em white;
+}
+
+.gallery-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#gallery_b {
+    opacity: 0;
+    transition: opacity 1s;
 }
