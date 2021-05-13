@@ -211,6 +211,10 @@
     text-align: center;
 }
 
+.btn {
+    transition-duration: 0s;
+}
+
 .btn-text {
     text-transform: uppercase;
 }
@@ -226,8 +230,8 @@ hr {
     text-align: center;
 }
 
-.btn {
-    transition-duration: 0s;
+#age {
+    margin: 0;
 }
 
 .profile-wrapper {
