@@ -153,6 +153,26 @@
     border-color: #211F1F;
 }
 
+.anilist {
+    color: #2B2D42;
+}
+
+.anilist:hover,
+.anilist:focus{
+    background-color: #2B2D42;
+    border-color: #2B2D42;
+}
+
+.mydramalist {
+    color: #00619D;
+}
+
+.mydramalist:hover,
+.mydramalist:focus{
+    background-color: #00619D;
+    border-color: #00619D;
+}
+
 .btn-text {
     position: absolute;
     left: 50%;
