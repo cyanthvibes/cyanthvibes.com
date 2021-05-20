@@ -21,7 +21,11 @@ function galleryNext() {
 
     gallery_index = (gallery_index + 1) % images.length;
 
-    document.getElementById(gallery_second ? 'gallery_a' : 'gallery_b').src = images[gallery_index];
+    try {
+        document.getElementById(gallery_second ? 'gallery_a' : 'gallery_b').src = images[gallery_index];
+    } catch (e) {
+        document.getElementById(gallery_second ? 'gallery_a' : 'gallery_b').src = images[gallery_index];
+    }
 
     gallery_second = !gallery_second;
 }
@@ -35,4 +39,4 @@ function galleryLoaded() {
 }
 
 setTimeout(galleryNext, 0); // Fake "onload" here
-setInterval(galleryNext, 2500); // Switch once every 5 seconds
+setInterval(galleryNext, 3000); // Switch once every 6 seconds
