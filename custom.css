@@ -173,6 +173,16 @@
     border-color: #00619D;
 }
 
+.linkedin {
+    color: #0077B5;
+}
+
+.linkedin:hover,
+.linkedin:focus{
+    background-color: #0077B5;
+    border-color: #0077B5;
+}
+
 .btn-text {
     position: absolute;
     left: 50%;
