@@ -242,7 +242,7 @@
 }
 
 .btn {
-    transition-duration: 0s;
+    transition: all 100ms ease;
 }
 
 .btn-text {
