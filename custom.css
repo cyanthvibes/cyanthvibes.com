@@ -183,6 +183,16 @@
     border-color: #0077B5;
 }
 
+.soundcloud {
+    color: #ff5500;
+}
+
+.soundcloud:hover,
+.soundcloud:focus{
+    background-color: #ff5500;
+    border-color: #ff5500;
+}
+
 .btn-text {
     position: absolute;
     left: 50%;

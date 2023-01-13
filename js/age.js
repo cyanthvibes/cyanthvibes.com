@@ -7,7 +7,7 @@ age--;
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('age').innerHTML = age.toString() + '/M | he/him';
+    document.getElementById('age').innerHTML = age.toString();
 })
 
 
