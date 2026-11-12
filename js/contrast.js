@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("a.social-link").forEach((link) => {
+    document.querySelectorAll("a.platform-link").forEach((link) => {
         const brandColor = getComputedStyle(link).getPropertyValue("--brand-color").trim();
         const match = brandColor.match(/^#([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i);
 

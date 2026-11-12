@@ -72,7 +72,7 @@ body {
     opacity: .25;
 }
 
-.social-link {
+.platform-link {
     --hover-foreground: white;
     position: relative;
     display: grid;
@@ -133,40 +133,40 @@ body {
     font-size: 1.25rem;
 }
 
-.link-section h2 + .social-link {
+.link-section h2 + .platform-link {
     margin-top: 0;
 }
 
-a.social-link:hover,
-a.social-link:focus-visible {
+a.platform-link:hover,
+a.platform-link:focus-visible {
     border-color: var(--brand-color);
     color: var(--hover-foreground);
     background-color: var(--brand-color);
 }
 
-a.social-link:hover .social-link-text,
-a.social-link:focus-visible .social-link-text {
+a.platform-link:hover .platform-link-text,
+a.platform-link:focus-visible .platform-link-text {
     color: var(--hover-foreground);
 }
 
-a.social-link:hover .social-icon-wrapper,
-a.social-link:focus-visible .social-icon-wrapper {
+a.platform-link:hover .platform-icon-wrapper,
+a.platform-link:focus-visible .platform-icon-wrapper {
     color: white;
 }
 
-a.social-link:focus-visible {
+a.platform-link:focus-visible {
     outline: 2px solid white;
     outline-offset: 3px;
 }
 
-.social-icon-wrapper {
+.platform-icon-wrapper {
     grid-column: 1;
     grid-row: 1;
     align-self: center;
     padding: .5rem;
 }
 
-.social-link-text {
+.platform-link-text {
     grid-column: 2;
     grid-row: 1;
     min-width: 0;
@@ -176,7 +176,7 @@ a.social-link:focus-visible {
     overflow-wrap: anywhere;
 }
 
-.socials {
+.platform-icon {
     display: block;
     width: 2em;
     height: 2em;
