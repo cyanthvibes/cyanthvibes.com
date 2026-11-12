@@ -1,13 +1,18 @@
-var currentDate = new Date();
-var birthDate = new Date('1998/03/04');
-var age = currentDate.getFullYear() - birthDate.getFullYear();
-var month = currentDate.getMonth() - birthDate.getMonth();
-if (month < 0 || (month === 0 && currentDate.getDate() < birthDate.getDate())) {
-age--;
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const ageElement = document.getElementById("age");
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('age').innerHTML = age.toString();
-})
+    if (!ageElement) return;
 
+    const birthDate = new Date(1998, 2, 4);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
 
+    if (
+        today.getMonth() < birthDate.getMonth() ||
+        (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())
+    ) {
+        age--;
+    }
+
+    ageElement.textContent = String(age);
+});

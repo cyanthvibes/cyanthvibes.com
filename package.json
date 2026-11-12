@@ -1,0 +1,26 @@
+{
+  "name": "cyanthvibes",
+  "version": "1.0.0",
+  "description": "A personal link page for social, messaging, gaming, and media profiles.",
+  "private": true,
+  "license": "MIT",
+  "author": "Harjan Redegeld",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyanthvibes/cyanthvibes.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cyanthvibes/cyanthvibes.com/issues"
+  },
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:js",
+    "lint:html": "htmlhint index.html",
+    "lint:js": "eslint js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "htmlhint": "^1.9.2"
+  }
+}
